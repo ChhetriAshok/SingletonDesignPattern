@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [demo_automation_suite]">
+  <listeners>
+    <listener class-name="com.agilysys.utility.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="demo_automation_test(failed)">
+    <classes>
+      <class name="com.agilysys.Tests.SampleTest">
+        <methods>
+          <include name="next"/>
+          <include name="init"/>
+          <include name="flushDriver"/>
+        </methods>
+      </class> <!-- com.agilysys.Tests.SampleTest -->
+    </classes>
+  </test> <!-- demo_automation_test(failed) -->
+</suite> <!-- Failed suite [demo_automation_suite] -->
